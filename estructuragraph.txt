@@ -1,0 +1,53 @@
+futbol_php_usuarios_sesion/
+│
+├── index.php                         # Punto de entrada del proyecto
+│
+├── includes/
+│   └── db.php                        # Conexión a la base de datos
+│
+├── controllers/
+│   ├── indexcontroller.php
+│   ├── insert_matchcontroller.php
+│   ├── insert_teamcontroller.php
+│   ├── delete_teamcontroller.php
+│   ├── delete_allcontroller.php
+│   ├── matchescontroller.php
+│   ├── logincontroller.php
+│   ├── registercontroller.php
+│   ├── logoutcontroller.php
+│   └── 404.php
+│
+├── models/
+│   ├── insert_matchmodel.php
+│   ├── insert_teammodel.php
+│   ├── matchesmodel.php
+│   ├── usermodel.php
+│   ├── delete_allmodel.php
+│   └── delete_teammodel.php
+│
+├── views/
+│   ├── partials/
+│   │   ├── head.php                 # Encabezado HTML con Bootstrap
+│   │   ├── navbar.php              # Barra de navegación
+│   │   └── footer.php              # Pie de página
+│   │
+│   ├── auth/
+│   │   ├── loginview.php
+│   │   └── registerview.php
+│   │
+│   ├── insert_teamview.php
+│   ├── insert_matchview.php
+│   ├── delete_teamview.php
+│   ├── delete_allview.php
+│   ├── matchesview.php
+│   ├── indexview.php
+│   └── 404view.php
+│ 
+├── assets/
+│   ├── css/
+│   │   └── styles.css              # Estilos personalizados
+│   └── images/
+│       ├── pelota_icon.png        # Ícono del sitio
+│       └── pelota_error404.jpg
+│
+└── .htaccess (opcional para rutas limpias)

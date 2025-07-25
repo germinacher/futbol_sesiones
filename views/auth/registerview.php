@@ -2,7 +2,7 @@
 <html>
     <?php 
         $titulo = "Registro"; 
-        require_once 'views/partials/head.php'; 
+        require_once __DIR__ . '/../partials/head.php'; 
     ?>
     <body>
         <main class="container-fluid py-5 text-center">
@@ -21,10 +21,10 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Registrarse</button>
             </form>
-            <a href="login.php" class="btn btn-link mt-3">¿Ya tienes una cuenta? Inicia sesión</a>
+            <a href="/futbol_php_usuarios_sesion/controllers/logincontroller.php" class="btn btn-link mt-3">¿Ya tienes una cuenta? Inicia sesión</a>
         </main>
 
-        <?php require_once 'views/partials/footer.php'; ?>
+        <?php require_once __DIR__ . '/../partials/footer.php'; ?>
         
     </body>
 </html>

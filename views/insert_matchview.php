@@ -4,6 +4,7 @@
         $titulo = "Registrar partido"; 
         require_once 'partials/head.php'; 
     ?>
+
     <body>
 
         <?php require_once 'partials/navbar.php'; ?>
