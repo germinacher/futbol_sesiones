@@ -1,0 +1,2 @@
+# Usa 404.php como página de error si no se encuentra el recurso
+ErrorDocument 404 /futbol_php_usuarios_sesion/controllers/404.php
